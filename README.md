@@ -330,7 +330,6 @@ result.py
 
 ---
 ## 순위
-![image](https://github.com/user-attachments/assets/14fac7fa-6513-4e51-8f3b-7a3906c5c44f)
 ![image](https://github.com/user-attachments/assets/786c4b33-faa9-40c2-b724-0246aa5def4c)
 
 
