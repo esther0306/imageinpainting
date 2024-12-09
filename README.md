@@ -177,7 +177,26 @@ ResNet-34를 U-Net의 인코더로 사용함으로써 입력 이미지에서 더
 출력: 컬러화된 이미지.
 구조: 동일한 ResNet-34 백본을 사용.
 
+
 ### 4. 사용한 PyTorch 라이브러리
 Segmentation Models PyTorch (SMP)
 SMP는 사전 학습된 백본과 다양한 세그멘테이션 아키텍처(U-Net, FPN 등)를 쉽게 구현할 수 있도록 도와줍니다.
 U-Net과 ResNet-34 백본을 빠르게 통합하여 학습에 활용.
+
+###### 📂 SMP 구조 다이어그램
+┌──────────────┐
+│ Pre-trained  │
+│ Backbone     │◀── ResNet-34 (ImageNet)
+└──────┬───────┘
+       │
+┌──────┴───────┐
+│  Encoder     │
+│  (Extract    │
+│  Features)   │
+└──────┬───────┘
+       │
+┌──────┴───────┐
+│  Decoder     │
+│  (Rebuild    │
+│  Image)      │
+└──────────────┘
