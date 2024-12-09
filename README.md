@@ -75,3 +75,7 @@ repository/
 
 └── LICENSE                   # 라이선스 파일
 
+---
+
+## 📂 파일 설명
+preprocessing.py: 데이터 전처리를 수행하는 메인 스크립트입니다.
