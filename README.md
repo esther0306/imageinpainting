@@ -226,14 +226,14 @@ daconbaseline.py
 | 8         | 2024-11-19 | Batch Size: 64, LR: 0.0001, Epoch: 50 | patchgan          | 0.381      | 1/8 toydataset으로 학습 |
 | 9         | 2024-11-20    | Batch Size: 64, LR: 0.0001, Epoch: 70 | patchgan          | 0.379     | 1/8 toydataset으로 학습|
 | 10         | 2024-11-22 | Batch Size: 64, LR: 0.0001, Epoch: 70 |patchgan          | 0.299     | 1/8 toydataset으로 학습, val만듦 |
-| 11          | 2024-11-23    | Batch Size: 64, LR: 0.0001, Epoch: 10 | patchgan         | 0.410     | 제공된 베이스라인 코드, 단일 모델 학습 및 데이터 증강 없음                |
-| 12         | 2024-11-25 | Batch Size: 64, LR: 0.0001, Epoch: 10 | patchgan          | 0.406    | 개선된 코드, 두 단계 모델(U-Net), 데이터 증강 및 손실 함수 최적화 적용 |
-| 13         | 2024-11-26    | Batch Size: 64, LR: 0.0001, Epoch: 10 | patchgan          | 0.401     | 제공된 베이스라인 코드, 단일 모델 학습 및 데이터 증강 없음                |
-| 14        | 	2024-11-26 | Batch Size: 64, LR: 0.0001, Epoch: 10 | patchgan         | 0.382      | 개선된 코드, 두 단계 모델(U-Net), 데이터 증강 및 손실 함수 최적화 적용 |
-| 15          | 2024-11-26    | Batch Size: 64, LR: 0.0001, Epoch: 10 | patchgan         | 0.395    | 제공된 베이스라인 코드, 단일 모델 학습 및 데이터 증강 없음                |
-| 16         | 2024-11-27 | Batch Size: 64, LR: 0.0001, Epoch: 10 | patchgan          | 0.378     | 개선된 코드, 두 단계 모델(U-Net), 데이터 증강 및 손실 함수 최적화 적용 |
-| 17          | 2024-11-27   | Batch Size: 64, LR: 0.0001, Epoch: 10 | patchgan         | 0.430      | 제공된 베이스라인 코드, 단일 모델 학습 및 데이터 증강 없음                |
-| 18         | 2024-11-27 |Batch Size: 64, LR: 0.0001, Epoch: 10 | patchgan          | 0.332     | 개선된 코드, 두 단계 모델(U-Net), 데이터 증강 및 손실 함수 최적화 적용 |
-| 19          | 2024-11-27   | Batch Size: 64, LR: 0.0001, Epoch: 10 | patchgan          | 0.378    | 제공된 베이스라인 코드, 단일 모델 학습 및 데이터 증강 없음                |
+| 11          | 2024-11-23    | Batch Size: 64, LR: 0.0001, Epoch: 100 | patchgan         | 0.410     | 1/8 toydataset으로 학습 |
+| 12         | 2024-11-25 | Batch Size: 64, LR: 0.0001, Epoch: 70 | patchgan          | 0.406    | random_polygon_mask 증강, 1/8 toydataset으로 학습 |
+| 13         | 2024-11-26    | Batch Size: 64, LR: 0.0001, Epoch: 70 | patchgan          | 0.401     | random_polygon_mask 증강, 1/8 toydataset으로 학습, 가중치 조절 |
+| 14        | 	2024-11-26 | Batch Size: 64, LR: 0.0001, Epoch: 70 | patchgan         | 0.382      | reduceonplateau스케쥴러 |
+| 15          | 2024-11-26    | Batch Size: 64, LR: 0.0001, Epoch: 70 | patchgan         | 0.395    | cosine 스케쥴러|
+| 16         | 2024-11-27 | Batch Size: 64, LR: 0.0001, Epoch: 70 | patchgan          | 0.378     | Random Crop, reduceonplateau스케쥴러|
+| 17          | 2024-11-27   | Batch Size: 64, LR: 0.0001, Epoch: 70 | patchgan         | 0.430      | Color Jitter, Gaussian Noise, reduceonplateau스케쥴러|
+| 18         | 2024-11-27 |Batch Size: 64, LR: 0.0001, Epoch: 70 | CycleGAN          | 0.332     | CycleGAN |
+| 19          | 2024-11-27   | Batch Size: 64, LR: 0.0001, Epoch: 70 | patchgan          | 0.378    | CycleGAN,   Color Jitter, Gaussian Noise    |
 
 ---
