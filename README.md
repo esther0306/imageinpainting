@@ -204,6 +204,9 @@ U-Net과 ResNet-34 백본을 빠르게 통합하여 학습에 활용.
 ```
 
 ---
-![TEST_017](https://github.com/user-attachments/assets/b2a2af87-ef66-4aef-a4c7-2f4c5e4450bf)
-->
+## 📸 Test 결과 비교
+
+| **Test Input 이미지**                              | **내 코드 결과 이미지**                              |
+|----------------------------------------------------|-----------------------------------------------------|
+|![TEST_017](https://github.com/user-attachments/assets/b2a2af87-ef66-4aef-a4c7-2f4c5e4450bf)|
 ![TEST_017](https://github.com/user-attachments/assets/d0603c48-ae72-4ce1-b404-3288831056c8)
