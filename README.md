@@ -64,6 +64,10 @@ repository/
 ---
 ## 🖥️ 실험 환경
 
+![Python](https://img.shields.io/badge/Python-3.8-blue)
+![Framework](https://img.shields.io/badge/Framework-PyTorch-green)
+![Dacon](https://img.shields.io/badge/Dacon-Image%20Restoration-orange)
+
 ### **GPU 및 CUDA 환경**
 | 항목          | 정보                        |
 |---------------|-----------------------------|
