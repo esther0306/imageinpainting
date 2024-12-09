@@ -1,3 +1,21 @@
+## 📊 프로젝트 전체 플로우차트 (PlantUML)
+
+```plantuml
+@startuml
+start
+:Raw Input Images;
+:Data Preprocessing;
+:Model Training (U-Net + ResNet-34);
+fork
+  :Validation;
+  :Testing;
+endfork
+:Model Optimization;
+:Generate Submission (ZIP Output Images);
+:Final Model Output (Trained Model);
+stop
+@enduml
+
 # 🌈 이미지 색상화 및 손실 부분 복원 AI 경진대회
 ![image](https://github.com/user-attachments/assets/f297bed5-d06d-46d0-a70d-a3dea0b98e6f)
 ---
