@@ -9,7 +9,7 @@ graph TD
     C --> D1[Validation]
     C --> D2[Testing]
     D1 --> E[Model Optimization]
-    D2 --> F[Generate Submission (ZIP Output Images)]
+    D2 --> F[Generate Submission(ZIP Output Images)]
     E --> G[Final Model Output: Trained Model]
     F --> G
 
