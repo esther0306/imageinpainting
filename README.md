@@ -27,7 +27,9 @@ test.csv: 평가용 이미지 경로 정보
 SSIM(Structural Similarity Index Measure): 이미지 구조의 유사도 평가
 색상 Histogram 유사도: 색상 정보의 유사도 평가
 
-🚀 프로젝트 구조
+---
+
+###🚀 프로젝트 구조
 
 repository/
 
