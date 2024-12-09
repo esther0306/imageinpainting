@@ -1,15 +1,18 @@
 ## 📊 프로젝트 전체 플로우차트
 
+## 📊 프로젝트 전체 플로우차트
+
 ```mermaid
 graph TD
     A[Raw Input Images] --> B[Data Preprocessing]
-    B --> C[Model Training (U-Net + ResNet-34)]
+    B --> C[Model Training: U-Net + ResNet-34]
     C --> D1[Validation]
     C --> D2[Testing]
     D1 --> E[Model Optimization]
     D2 --> F[Generate Submission (ZIP Output Images)]
-    E --> G[Final Model Output (Trained Model)]
+    E --> G[Final Model Output: Trained Model]
     F --> G
+
 ```
 # 🌈 이미지 색상화 및 손실 부분 복원 AI 경진대회
 ![image](https://github.com/user-attachments/assets/f297bed5-d06d-46d0-a70d-a3dea0b98e6f)
