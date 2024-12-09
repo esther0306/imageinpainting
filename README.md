@@ -310,7 +310,7 @@ result.py
 | 20            | 2024-11-29     | Batch Size: 32, LR: 0.0001, Epoch: 10 | ResNet-34               | 0.4651          | 학습 반복 횟수 증가                                      |
 | 21            | 2024-11-29     | Batch Size: 32, LR: 0.0001, Epoch: 20  | ResNet-34               | 0.5256          | 에포크 증가                                         |
 | 22            | 2024-11-29     | Batch Size: 32, LR: 0.0002, Epoch: 10  | ResNet-34               | 0.5229          | base에 러닝 레이트  증가                                    |
-| 23            | 2024-11-30     | Batch Size: 32, LR: 0.0002, Epoch: 27 | ResNet-34               | 0.5463          | Early Stopping (7 Epoch 기준)                           |
+| 23            | 2024-11-30     | Batch Size: 32, LR: 0.0002, Epoch: 27 | ResNet-34               |<span style="color:red"> 0.5463 </span>           | Early Stopping (7 Epoch 기준)                           |
 | 24            | 2024-11-30     | Batch Size: 16, LR: 0.0001, Epoch: 2  | ResNet-50               | 0.5346          | ResNet-50 백본 사용                                      |
 | 25            | 2024-12-01     | Batch Size: 12, LR: 0.0001, Epoch: 20 | EfficientNet-B4         | 0.5358          | EfficientNet-B4 백본 사용                                |
 | 26            | 2024-12-01     | Batch Size: 12, LR: 0.0001, Epoch: 20 | SE-ResNeXt-50           | 0.5212          | SE-ResNeXt-50 백본 사용                                  |
