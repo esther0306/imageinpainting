@@ -54,14 +54,24 @@ repository/
 │   ├── data_loader.py        # 데이터 로더 스크립트
 
 │   ├── model.py              # AI 모델 정의
+
 │   ├── train.py              # 학습 스크립트
+
 │   └── inference.py          # 추론 스크립트
+
 ├── results/
+
 │   ├── predictions/          # 추론 결과 저장
+
 │   ├── submission.zip        # 제출용 파일
+
 │   └── best_checkpoint/      # 학습된 최적의 모델 저장
+
 │       └── best_model.pth    # 최적 성능을 보인 모델 체크포인트
+
 ├── README.md                 # 리포지토리 설명 파일
+
 ├── requirements.txt          # 의존성 파일
+
 └── LICENSE                   # 라이선스 파일
 
