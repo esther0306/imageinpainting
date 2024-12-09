@@ -29,7 +29,7 @@ SSIM(Structural Similarity Index Measure): 이미지 구조의 유사도 평가
 
 ---
 
-###🚀 프로젝트 구조
+### 🚀 프로젝트 구조
 
 repository/
 
